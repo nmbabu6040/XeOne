@@ -1,0 +1,456 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 320px) {
+  .navbar-toggler {
+    padding: 2px 3px;
+    border: 1px solid #fff;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    padding: 0px 5px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #00000093;
+    background: #fff;
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link:hover {
+    color: #00bcd4;
+  }
+
+  .bannerSlider .owl-dots {
+    display: none;
+  }
+
+  .bannetContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bannetContent {
+    margin-top: -100px;
+  }
+
+  .serviceImage img {
+    min-height: 200px;
+  }
+
+  .serviceContent h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .workPart {
+    padding: 80px 0px;
+  }
+
+  .workHead h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .teamPart {
+    padding: 70px 0px;
+  }
+  .portContTwo h3,
+  .applicationHead h3,
+  .packegeItem h3,
+  .packegeHead h3,
+  .testHead h3,
+  .contacDetailes h3,
+  .featureContent h3,
+  .teamHead h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .workItem span::after {
+    display: none;
+  }
+  .portDownContent span {
+    font-size: 40px;
+  }
+
+  .portDownContent a {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .footerHead ul li a {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footerHead p {
+    font-size: 9px;
+  }
+
+  .footer {
+    padding: 30px 0px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .navbar-toggler {
+    padding: 2px 3px;
+    border: 1px solid #fff;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    padding: 0px 5px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #00000093;
+    background: #fff;
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link:hover {
+    color: #00bcd4;
+  }
+
+  .bannerSlider .owl-dots {
+    display: none;
+  }
+
+  .bannetContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bannetContent {
+    margin-top: -100px;
+  }
+
+  .serviceImage img {
+    min-height: 200px;
+  }
+
+  .serviceContent h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .workPart {
+    padding: 80px 0px;
+  }
+
+  .workHead h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .teamPart {
+    padding: 70px 0px;
+  }
+  .portContTwo h3,
+  .applicationHead h3,
+  .packegeItem h3,
+  .packegeHead h3,
+  .testHead h3,
+  .contacDetailes h3,
+  .featureContent h3,
+  .teamHead h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .portDownContent span {
+    font-size: 40px;
+  }
+
+  .portDownContent a {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .footerHead ul li a {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footerHead p {
+    font-size: 9px;
+  }
+
+  .footer {
+    padding: 30px 0px;
+  }
+
+  .workItem span::after {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .navbar-toggler {
+    padding: 2px 3px;
+    border: 1px solid #fff;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link {
+    padding: 0px 5px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #00000093;
+    background: #fff;
+  }
+
+  .menubar .navbar-nav .nav-item .nav-link:hover {
+    color: #00bcd4;
+  }
+
+  .bannerSlider .owl-dots {
+    display: none;
+  }
+
+  .bannetContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bannetContent {
+    margin-top: -100px;
+  }
+
+  .serviceImage img {
+    min-height: 200px;
+  }
+
+  .serviceContent h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .workPart {
+    padding: 80px 0px;
+  }
+
+  .workHead h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .teamPart {
+    padding: 70px 0px;
+  }
+  .portContTwo h3,
+  .applicationHead h3,
+  .packegeItem h3,
+  .packegeHead h3,
+  .testHead h3,
+  .contacDetailes h3,
+  .featureContent h3,
+  .teamHead h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .portDownContent span {
+    font-size: 40px;
+  }
+
+  .portDownContent a {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .footerHead ul li a {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footerHead p {
+    font-size: 9px;
+  }
+
+  .footer {
+    padding: 30px 0px;
+  }
+
+  .workItem span::after {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 768.1px) and (max-width: 992px) {
+  .navbar-toggler {
+    padding: 2px 3px;
+    border: 1px solid #fff;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .bannerSlider .owl-dots {
+    display: none;
+  }
+
+  .bannetContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .bannetContent p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bannetContent {
+    margin-top: -100px;
+  }
+
+  .serviceImage img {
+    min-height: 200px;
+  }
+
+  .serviceContent h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .workPart {
+    padding: 80px 0px;
+  }
+
+  .workHead h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .teamPart {
+    padding: 70px 0px;
+  }
+  .portContTwo h3,
+  .applicationHead h3,
+  .packegeItem h3,
+  .packegeHead h3,
+  .testHead h3,
+  .contacDetailes h3,
+  .featureContent h3,
+  .teamHead h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .portDownContent span {
+    font-size: 40px;
+  }
+
+  .portDownContent a {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .footerHead ul li a {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footerHead p {
+    font-size: 9px;
+  }
+
+  .footer {
+    padding: 30px 0px;
+  }
+
+  .workItem span::after {
+    display: none;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992.1px) and (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200.1px) and (min-width: 1400px) {
+}
